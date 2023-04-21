@@ -1,0 +1,32 @@
+{
+  "name": "burger-builder",
+  "version": "1.0.0",
+  "description": "Technical task",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.ts",
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetuhovskySergei/burger-builder.git"
+  },
+  "author": "Siarhei_Petukhouski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetuhovskySergei/burger-builder/issues"
+  },
+  "homepage": "https://github.com/PetuhovskySergei/burger-builder#readme",
+  "dependencies": {
+    "axios": "1.3.6",
+    "body-parser": "1.20.2",
+    "express": "4.18.2",
+    "ts-node": "10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.17",
+    "@types/node": "18.15.12",
+    "nodemon": "2.0.22",
+    "typescript": "5.0.4"
+  }
+}
